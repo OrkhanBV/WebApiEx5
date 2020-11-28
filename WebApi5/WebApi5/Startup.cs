@@ -12,9 +12,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using WebApi5.Data;
-using WebApi5.Data.Interfaces;
+/*using WebApi5.Data.Interfaces;
 using WebApi5.Data.Repository;
-using WebShop.Data.Repository;
+using WebShop.Data.Repository;*/
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
 
 namespace WebApi5
@@ -31,8 +31,8 @@ namespace WebApi5
         {
             services.AddDbContext<AppDBContent>(options =>
                 options.UseNpgsql(_confString.GetConnectionString("DefaultConnection")));
-            services.AddTransient<IVersionFiles, FileRepository>();
-            services.AddTransient<ICategoryW, CategoryRepository>();
+            /*services.AddTransient<IVersionFiles, FileRepository>();
+            services.AddTransient<ICategoryW, CategoryRepository>();*/
             services.AddControllers();
             services.AddMvc(options => options.EnableEndpointRouting = false);
         }

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using WebApi5.Data;
-using WebApi5.Data.Interfaces;
+/*using WebApi5.Data.Interfaces;*/
 using WebApi5.Data.Models;
 
 namespace WebApi5.Controllers
@@ -19,7 +19,9 @@ namespace WebApi5.Controllers
             this.appDBContent = appDBContent;
         }
         
-        public IEnumerable<File> GetAllVersionFiles => appDBContent.File.ToList();
+        //public IEnumerable<File> GetAllVersionFiles => appDBContent.File.ToList();
+        public IEnumerable<File> GetAllVersionFiles =>
+            appDBContent.File.Where(c => c.CategoryW.categoryType == "Другое").ToList();
         [HttpGet]
         public IEnumerable<File> Get()
         {

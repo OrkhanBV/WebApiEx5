@@ -14,10 +14,10 @@ https://metanit.com/sharp/tutorial/3.9.php
 ************************************************************************
 ************************************************************************/
 
-namespace WebApi5.Data.Interfaces
+/*namespace WebApi5.Data.Interfaces
 {
     public interface ICategoryW
     {
         IEnumerable<CategoryW> AllCategories { get; }
     }
-}
+}*/

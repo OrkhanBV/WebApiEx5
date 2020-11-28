@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/orhan/Desktop/Task5/WebApi5/WebApi5/WebApi5.csproj": {}
+    "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/WebApi5.csproj": {}
   },
   "projects": {
-    "/home/orhan/Desktop/Task5/WebApi5/WebApi5/WebApi5.csproj": {
+    "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/WebApi5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/orhan/Desktop/Task5/WebApi5/WebApi5/WebApi5.csproj",
+        "projectUniqueName": "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/WebApi5.csproj",
         "projectName": "WebApi5",
-        "projectPath": "/home/orhan/Desktop/Task5/WebApi5/WebApi5/WebApi5.csproj",
+        "projectPath": "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/WebApi5.csproj",
         "packagesPath": "/home/orhan/.nuget/packages/",
-        "outputPath": "/home/orhan/Desktop/Task5/WebApi5/WebApi5/obj/",
+        "outputPath": "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/orhan/.nuget/NuGet/NuGet.Config"

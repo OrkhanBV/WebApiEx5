@@ -14,7 +14,7 @@ https://metanit.com/sharp/tutorial/3.9.php
 ************************************************************************
 ************************************************************************/
 
-namespace WebApi5.Data.Interfaces
+/*namespace WebApi5.Data.Interfaces
 {
     public interface IVersionFiles
     {
@@ -24,4 +24,4 @@ namespace WebApi5.Data.Interfaces
         //public File GetIdVersionFile(int fileId);
         //public File GetFile(int fileData);
     }
-}
+}*/
