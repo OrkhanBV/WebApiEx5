@@ -28,6 +28,4 @@ namespace WebApi5.Controllers
             return GetAllVersionFiles;
         }
     }
-
-
 }
