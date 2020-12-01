@@ -29,6 +29,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "5.0.0",
           "Npgsql": "5.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.0",
+          "SystemWeb": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "3.1.0.0",
@@ -568,6 +569,17 @@
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
+      "SystemWeb/1.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/SystemWeb.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/SystemWeb.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
         "compile": {
           "Microsoft.AspNetCore.Antiforgery.dll": {}
@@ -2349,6 +2361,13 @@
       "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
       "path": "system.runtime.compilerservices.unsafe/4.6.0",
       "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    },
+    "SystemWeb/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z2uHLRnXO9SFXOdZlu7tPpnewXBZTEa/kg00VfeicT8LoqT6U1VbB6CxEFWKIhW5MGy5R1F3Eq9HEhm6iukpFg==",
+      "path": "systemweb/1.0.0",
+      "hashPath": "systemweb.1.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Antiforgery/3.1.0.0": {
       "type": "referenceassembly",

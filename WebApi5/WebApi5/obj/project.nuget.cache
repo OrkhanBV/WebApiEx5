@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "R5qyfpr60MWsrqknbPHzJLuqkS7uGKd0BDHCcQ+a6+dWTb8uG8PjxenIS8RFs9FXCMUU0mL9QhIXfaxyKZIH4A==",
+  "dgSpecHash": "Pmm55vVqdvFkrLYnIZAIrB0VrkI708HcDABpI9vS3IOGE+8xck8TnuRWTJU+c8367xXu+k6wXOzjQFCcBMCbGA==",
   "success": true,
   "projectFilePath": "/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/WebApi5.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,8 @@
     "/home/orhan/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/orhan/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/orhan/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "/home/orhan/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "/home/orhan/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/home/orhan/.nuget/packages/systemweb/1.0.0/systemweb.1.0.0.nupkg.sha512"
   ],
   "logs": []
 }

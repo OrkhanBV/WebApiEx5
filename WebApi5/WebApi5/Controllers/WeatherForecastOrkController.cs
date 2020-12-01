@@ -9,7 +9,7 @@ namespace WebApi5.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class WeatherForecastOrkController : Controller
+    public class WeatherForecastOrkController : ControllerBase
     {
         private static readonly string[] Summaries = new[]
         {

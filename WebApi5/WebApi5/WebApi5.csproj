@@ -13,6 +13,7 @@
       <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="5.0.0" />
       <PackageReference Include="Npgsql" Version="5.0.0" />
       <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="5.0.0" />
+      <PackageReference Include="SystemWeb" Version="1.0.0" />
     </ItemGroup>
 
     <ItemGroup>
@@ -31,6 +32,10 @@
       <_ContentIncludedByDefault Remove="wwwroot\img\tesla_sport.jpg" />
       <_ContentIncludedByDefault Remove="wwwroot\js\bootstrap.min.js" />
       <_ContentIncludedByDefault Remove="Pages\GetFile\Get.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="AppStorage" />
     </ItemGroup>
 
 

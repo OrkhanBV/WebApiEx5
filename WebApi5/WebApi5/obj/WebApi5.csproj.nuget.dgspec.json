@@ -57,6 +57,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "SystemWeb": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [

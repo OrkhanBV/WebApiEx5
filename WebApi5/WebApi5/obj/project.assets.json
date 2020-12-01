@@ -257,6 +257,15 @@
         "runtime": {
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
+      },
+      "SystemWeb/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SystemWeb.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SystemWeb.dll": {}
+        }
       }
     }
   },
@@ -808,6 +817,18 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "SystemWeb/1.0.0": {
+      "sha512": "z2uHLRnXO9SFXOdZlu7tPpnewXBZTEa/kg00VfeicT8LoqT6U1VbB6CxEFWKIhW5MGy5R1F3Eq9HEhm6iukpFg==",
+      "type": "package",
+      "path": "systemweb/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SystemWeb.dll",
+        "systemweb.1.0.0.nupkg.sha512",
+        "systemweb.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -816,7 +837,8 @@
       "Microsoft.EntityFrameworkCore.Design >= 5.0.0",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.0",
       "Npgsql >= 5.0.0",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0"
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 5.0.0",
+      "SystemWeb >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -875,6 +897,10 @@
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
             "version": "[5.0.0, )"
+          },
+          "SystemWeb": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [

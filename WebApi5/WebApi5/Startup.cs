@@ -16,6 +16,7 @@ using WebApi5.Data;
 using WebApi5.Data.Repository;
 using WebShop.Data.Repository;*/
 using IHostingEnvironment = Microsoft.AspNetCore.Hosting.IHostingEnvironment;
+using System.Web;
 
 namespace WebApi5
 {

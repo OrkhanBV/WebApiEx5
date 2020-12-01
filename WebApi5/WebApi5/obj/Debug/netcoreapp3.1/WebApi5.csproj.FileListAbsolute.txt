@@ -96,3 +96,4 @@
 /home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/obj/Debug/netcoreapp3.1/WebApi5.dll
 /home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/obj/Debug/netcoreapp3.1/WebApi5.pdb
 /home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/obj/Debug/netcoreapp3.1/WebApi5.genruntimeconfig.cache
+/home/orhan/Desktop/Task5/WebApiEx5/WebApi5/WebApi5/bin/Debug/netcoreapp3.1/SystemWeb.dll
