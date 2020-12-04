@@ -19,6 +19,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
+using WebApi5.Controllers.Models;
 
 namespace WebApi5.Controllers
 {
@@ -38,7 +39,7 @@ namespace WebApi5.Controllers
         public IActionResult SingleFile(IFormFile file)
         {
             var dir = _env.ContentRootPath;
-            using (var fileStream = new FileStream(Path.Combine(dir, "file.png"), FileMode.Create, FileAccess.Write))
+            using (var fileStream = new FileStream(Path.Combine(_dir, "file.png"), FileMode.Create, FileAccess.Write))
             {
                 file.CopyTo(fileStream);
             }
@@ -54,6 +55,17 @@ namespace WebApi5.Controllers
                 {
                     file.CopyTo(fileStream);
                 }
+            }
+            return RedirectToAction("Index");
+        }
+
+        public IActionResult FileInModel(SomeForm someForm)
+        {
+            using (var fileStream = new FileStream(Path.Combine(_dir, $"{someForm.Name}.png"), 
+                FileMode.Create, 
+                FileAccess.Write))
+            {
+                someForm.File.CopyTo(fileStream);
             }
             return RedirectToAction("Index");
         }

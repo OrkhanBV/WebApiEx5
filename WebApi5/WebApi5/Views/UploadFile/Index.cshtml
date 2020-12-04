@@ -26,3 +26,14 @@
     </form>
           
 </div>
+
+<div class="row mt-5 mb-2">
+    <h4>File in Model</h4>
+    <form asp-conroller="Home" asp-action="FileInModel"
+          enctype="multipart/form-data" method="post">
+         <input type="text" name = "someForm.Name" />
+        <input type="file" multiple name="someForm.File"/>
+        <button type="submit">Submit</button>
+    </form>
+          
+</div>
