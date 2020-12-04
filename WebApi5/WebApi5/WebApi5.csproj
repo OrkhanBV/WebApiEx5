@@ -5,6 +5,8 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="bootstrap" Version="4.5.3" />
+      <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.7" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.0" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.0">
         <PrivateAssets>all</PrivateAssets>
@@ -32,10 +34,23 @@
       <_ContentIncludedByDefault Remove="wwwroot\img\tesla_sport.jpg" />
       <_ContentIncludedByDefault Remove="wwwroot\js\bootstrap.min.js" />
       <_ContentIncludedByDefault Remove="Pages\GetFile\Get.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Cars\List.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\UploadFile\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\UploadFile\SingleFile.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
       <Folder Include="AppStorage" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\LastElCar\Last.cshtml" />
+      <UpToDateCheckInput Remove="Views\LastElCar\LastElectro.cshtml" />
+      <UpToDateCheckInput Remove="Pages\UploadFile\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Home\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Shared\_Layout.cshtml" />
+      <UpToDateCheckInput Remove="Views\_ViewImports.cshtml" />
+      <UpToDateCheckInput Remove="Views\_ViewStart.cshtml" />
     </ItemGroup>
 
 

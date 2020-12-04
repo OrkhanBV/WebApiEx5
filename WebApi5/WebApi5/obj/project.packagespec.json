@@ -26,6 +26,10 @@
   "frameworks": {
     "netcoreapp3.1": {
       "dependencies": {
+        "Microsoft.AspNet.WebApi.Client": {
+          "target": "Package",
+          "version": "[5.2.7, )"
+        },
         "Microsoft.EntityFrameworkCore": {
           "target": "Package",
           "version": "[5.0.0, )"
@@ -51,6 +55,10 @@
         "SystemWeb": {
           "target": "Package",
           "version": "[1.0.0, )"
+        },
+        "bootstrap": {
+          "target": "Package",
+          "version": "[4.5.3, )"
         }
       },
       "imports": [
