@@ -59,6 +59,7 @@ namespace WebApi5.Controllers
             return RedirectToAction("Index");
         }
 
+        
         public IActionResult FileInModel(SomeForm someForm)
         {
             using (var fileStream = new FileStream(Path.Combine(_dir, $"{someForm.Name}.png"), 
